@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    size: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    font-size: xx-large;
+}
+
+.wordList button {
+    margin: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.blank {
+    border-bottom: 1px solid #000;
+    padding: 0 10px;
+    width: 70px;
+}
+
+footer {
+    text-align: bottom;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    justify-content: bottom;
+}
