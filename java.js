@@ -1,6 +1,8 @@
+// Model
 let currentBlank = 1;
 const app = document.getElementById("app");
 
+// View
 updateView();
 function updateView(){
 let html = `
@@ -31,7 +33,7 @@ let html = `
 }
         
 
-
+// Controller
 function setName(word){
     let blank = document.getElementById("blank" + currentBlank);
     if (blank) {
